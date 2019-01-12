@@ -8,9 +8,7 @@ before_script:
   - mysql -e 'create database test;'
   - composer self-update
   - composer install --no-interaction
-  - nvm install 
-  - npm install npm@latest -g
-  - npm install
+
 
 script:
   - vendor/bin/phpunit
