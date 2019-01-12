@@ -44,8 +44,7 @@ class SocialAuthController extends Controller
 
 
         $avatarLink = $socialiteUser->getAvatar();
-
-
+        
         if(!$avatarLink){
             $avatarLink = 'https://i0.wp.com/caravetclinic.com/wp/wp-content/uploads/2016/07/person-icon-blue.png';
         }
