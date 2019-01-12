@@ -33,8 +33,6 @@ npm run dev
 ```
 
 ## Tests
-Two tests are available:
-- The first test does the following: creating user, creating social account for that user.
-- The second test does the following: creating user, creating two different social accounts for that user.
+- Two tests are available.
 
 [![Build Status](https://travis-ci.com/firasabb/social.svg?branch=develop)](https://travis-ci.com/firasabb/social)
