@@ -1,0 +1,18 @@
+language: php
+
+php:
+  - 7.1.7
+
+before_script:
+  - cp .env.travis .env
+  - mysql -e 'create database test;'
+  - php artisan migrate
+  - composer self-update
+  - composer install --no-interaction
+  - nvm install 
+  - npm install npm@latest -g
+  - npm install
+
+script:
+  - vendor/bin/phpunit
+  - npm run production  
