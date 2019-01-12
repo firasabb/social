@@ -1,0 +1,334 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+*:focus {
+  outline: none;
+}
+
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.19rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 0px;
+  transition: 0.2s ease;
+}
+
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #e3342f;
+}
+
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+#profile-box{
+
+  position: relative;
+  margin: 5% auto;
+  width: 400px;
+  height: 350px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.profile-header{
+
+  display: block;
+  width: 100%;
+  height: 140px;
+  padding-top: 25px;
+}
+
+
+#profile-img{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #eeeeee;
+}
+
+.profile-content{
+  color: #495057;
+  display: block;
+  padding: 30px 100px 0px 100px;
+  text-align: center
+
+}
+
+.profile-social{
+  
+  display: block;
+  padding: 30px 100px 0px 100px;
+  text-align: center
+
+}
+
+
+.fa {
+  font-size: 1.3rem !important;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 0;
+  
+  border-radius: 15%;
+}
+
+.social-span{
+  font-size: 2rem;
+}
+
+.fa-facebook-square {
+  color: rgb(40, 111, 255);
+}
+
+.fa-instagram {
+  color:  rgb(248, 0, 95);
+}
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  min-height: 350px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+#register-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  min-height: 450px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  min-height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+
+.or-register {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+
+
+.or-login {
+  position: absolute;
+  top: 140px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 300px;
+  height: 400px;
+  border-radius: 0 2px 2px 0;
+  align-items: center;
+}
+
+.right .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+
+.right-login {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  width: 300px;
+  height: 350px;
+  border-radius: 0 2px 2px 0;
+  align-items: center;
+}
+
+.right-login .loginwith {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+
+button.social-signin-login {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-right: 20px;
+  float: right;
+}
+
+button.social-signin-register {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+  float: right;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin-login.facebook, button.social-signin-register.facebook {
+  background: #32508E;
+}
+
+button.social-signin-login.instagram, button.social-signin-register.instagram {
+  background: rgb(255, 0, 149);
+}
